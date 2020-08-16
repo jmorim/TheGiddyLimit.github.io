@@ -2,9 +2,17 @@
 	"data": [
 		{
 			"type": "section",
-			"name": "Introduction",
-			"page": 4,
+			"name": "Chapter One: Introduction",
+			"page": 12,
 			"entries": [
+				{
+					"type": "section",
+					"name": "Welcome to Call of Cthulhu!",
+					"page": 12,
+					"entries": [
+						"{@i Call of Cthulhu} is a game full of secrets, mysteries, and horror. Playing the role of a steadfast investigator, you will travel to strange and dangerous places, uncover foul plots and stand against the terrors of the night. You will encounter sanity-blasting entities, monsters and insane cultists."
+					]
+				},
 				"It's good to be the dungeon master! Not only do you get to tell fantastic stories about heroes, villains, monsters, and magic, but you also get to create the world in which these stories live. Whether you're running a D&D game already or you think it's something you want to try, this book is for you.",
 				"The {@i Dungeon Master's Guide} assumes that you know the basics of how to play the D&D tabletop roleplaying game. If you haven't played before, the Dungeons & Dragons Starter Set is a great starting point for new players and DMs.",
 				"This book has two important companions: the Player's Handbook, which contains the rules your players need to create characters and the rules you need to run the game, and the Monster Manual, which contains ready-to use monsters to populate your D&D world.",

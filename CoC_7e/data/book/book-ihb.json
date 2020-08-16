@@ -5,10 +5,10 @@
 			"name": "Introduction",
 			"page": 12,
 			"entries": [
-				"Welcome to the *Call of Cthulhu Investigator's Handbook*!",
-				"*Call of Cthulhu* is a game ƒull of secrets, mysteries, and horror. Playing the role of a steadfast investigator, you will travel to strange and dangerous places, uncover foul plots, and stand against the terrors of the night. You will encounter sanity-blasting entities, monsters, and insane cultists. Within strange and forgotten tomes of lore you will find secrets that man was not meant to know.",
+				"Welcome to the {@i Call of Cthulhu Investigator's Handbook}!",
+				"{@i Call of Cthulhu} is a game ƒull of secrets, mysteries, and horror. Playing the role of a steadfast investigator, you will travel to strange and dangerous places, uncover foul plots, and stand against the terrors of the night. You will encounter sanity-blasting entities, monsters, and insane cultists. Within strange and forgotten tomes of lore you will find secrets that man was not meant to know.",
 				"You and your companions may very well decide the fate of the world...",
-				"*Call of Cthulhu* is a horror roleplaying game based on the writings of Howard Phillips Lovecraft. Lovecraft penned a tremendous body of work during the 1920s and 1930s concerning both horrors from beyond and from within. Following his death in 1937, Lovecraft’s stories of cosmic horror have grown in reputation and stature, and today he is recognized as a major American horror story writer of the twentieth century, influencing numerous authors, film directors, and amassing a huge following of devoted fans. Indeed Lovecraft himself could now be considered a cult figure in his own right. Lovecraft’s fiction ranges from science fiction to gothic horror and into nihilistic cosmic terror— perfect material on which to base a roleplaying game.",
+				"{@i Call of Cthulhu} is a horror roleplaying game based on the writings of Howard Phillips Lovecraft. Lovecraft penned a tremendous body of work during the 1920s and 1930s concerning both horrors from beyond and from within. Following his death in 1937, Lovecraft’s stories of cosmic horror have grown in reputation and stature, and today he is recognized as a major American horror story writer of the twentieth century, influencing numerous authors, film directors, and amassing a huge following of devoted fans. Indeed Lovecraft himself could now be considered a cult figure in his own right. Lovecraft’s fiction ranges from science fiction to gothic horror and into nihilistic cosmic terror— perfect material on which to base a roleplaying game.",
 				"Lovecraft’s most famous invention has become known as the Cthulhu Mythos, a series of stories sharing common plot elements such as certain mythical books of arcane lore and alien godlike entities. The Cthulhu Mythos fired the imagination of other authors, mostly protégés and friends of Lovecraft, and soon they were adding to this complex mythology, further advancing its concepts and constituent parts. Today \"Cthulhu\" stories are still being written (and filmed) by the heirs to Lovecraft’s literary legacy.",
 				"Do not be concerned if you’ve never read one of Lovecraft’s stories or don't know anything about the Cthulhu Mythos; such information will unfold during the game. A lot of the fun is to be found in discovering secrets and unraveling the mysteries set up by the Keeper of Arcane Lore who \"referees\" the game",
 				{
@@ -16,8 +16,8 @@
 					"name": "About this book",
 					"page": 12,
 					"entries": [
-						"This book has been written for people who will be playing the roles of investigators in *Call of Cthulhu* games, and contains rules for creating investigator characters and a guide to playing, which includes information for games set in the era of H.P. Lovecraft’s stories—the 1920s—as well as contemporary settings.",
-						"As well as this book, you will need gaming dice, pencils, notepaper, and some friends—one person must have the *Call of Cthulhu Keeper Rulebook* and act as the Keeper of Arcane Lore for the game."
+						"This book has been written for people who will be playing the roles of investigators in {@i Call of Cthulhu} games, and contains rules for creating investigator characters and a guide to playing, which includes information for games set in the era of H.P. Lovecraft’s stories—the 1920s—as well as contemporary settings.",
+						"As well as this book, you will need gaming dice, pencils, notepaper, and some friends—one person must have the {@i Call of Cthulhu Keeper Rulebook} and act as the Keeper of Arcane Lore for the game."
 					],
 					"id": "001"
 				},
@@ -26,7 +26,7 @@
 					"name": "Purpose of the Game",
 					"page": 12,
 					"entries": [
-						"The aim of playing *Call of Cthulhu* is to have fun with your friends as you explore and create a Lovecraftian story. Players take the role of intrepid investigators of the unknown (\"investigators\"), attempting to seek out, understand and eventually destroy the horrors, mysteries, and secrets of the Cthulhu Mythos. A game moderator, known as the Keeper of Arcane Lore (\"Keeper\"), is necessary for this game, and his or her role is, within the rules of the game, to set up situations for the players to confront. The investigators need not be anything at all like the people who play them. Indeed, it is often more rewarding and enjoyable for players to create characters entirely unlike themselves: tough private eyes, rude taxi drivers, or sinisterly genteel occultists.",
+						"The aim of playing {@i Call of Cthulhu} is to have fun with your friends as you explore and create a Lovecraftian story. Players take the role of intrepid investigators of the unknown (\"investigators\"), attempting to seek out, understand and eventually destroy the horrors, mysteries, and secrets of the Cthulhu Mythos. A game moderator, known as the Keeper of Arcane Lore (\"Keeper\"), is necessary for this game, and his or her role is, within the rules of the game, to set up situations for the players to confront. The investigators need not be anything at all like the people who play them. Indeed, it is often more rewarding and enjoyable for players to create characters entirely unlike themselves: tough private eyes, rude taxi drivers, or sinisterly genteel occultists.",
 						"Most of the play is a verbal exchange. The Keeper sets the scene, describing the environment, the individuals and encounters to the players. The players tell the Keeper what they intend their investigators to do. The Keeper then tells them whether they can do it, and, if not, what happens instead. In play the game takes the form of a group conversation with many twists and turns and fun on the way.",
 						"The game rules use dice to determine if an action succeeds or fails when a dramatic conflict presents itself; for example, whether your investigators are able to leap out of the way of giant statue that is about to crash down upon their heads! The rules describe how to decide the outcome of such conflicts."
 					],
@@ -50,7 +50,8 @@
 								"Investigators who survive will gain power from arcane volumes of forgotten lore, knowledge of horrendous monsters and advancement in their skills as they become more experienced. Thus the players’ investigators will continue to progress, until their demise or retirement—whichever comes first."
 							],
 							"id": "003"
-						}]},
+						}]
+				},
 				{
 					"type": "section",
 					"name": "Example of Play",
@@ -65,149 +66,55 @@
 						"(GARRIE) KEEPER: You make your way to the desk. The woman behind it appears to be stamping a pile of books. She is middle-aged, wears large spectacles, and has an annoyed look on her face.",
 						"PAULA: Err, ahem. I clear my throat to get her attention and give her a winning smile.",
 						"(GARRIE) KEEPER: She looks up at you with an even more annoyed look on her face. She stares at you and says, \"It's closing time you know.\"",
-						"PAULA: \"I’m very sorry, but I wonder if you can help me,\" *Paula asks in a polite tone, with smile on her lips.* \"Can you direct me to the local history section? It really is most urgent.\"",
+						"PAULA: \"I’m very sorry, but I wonder if you can help me,\" {@i Paula asks in a polite tone, with smile on her lips.} \"Can you direct me to the local history section? It really is most urgent.\"",
 						"JOE: Okay, while Paula's investigator is talking to the woman at the desk, I’m going to look for the section on occult books.",
 						"(GARRIE) KEEPER: Just hang on a moment Joe; I’ll get to you in a second. Paula, she winces and points her hand to the big stack of shelves two rows down. She then says, \"Down there. You’ve got ten minutes and then I’m locking up for the night.\"",
-						"Right Joe, you look about at the signs and
-						see that there is a section called "Mysteries
-						and the Supernatural" down the aisle. You
-						want to go look?
-						JOE: Sure I do!
-						In Call of Cthulhu, the
-						players play investigators
-						14
-						investigator's handbook
-						CATHY: My private eye, Jake, is going to wait near the main
-						entrance and keep an eye out.
-						ARNOLD: I’m going with Joe.
-						(GARRIE) KEEPER: Paula, you get to the local history
-						section. What do you want to look for?
-						PAULA: I want to see if I can find anything on the Cult of
-						the Green Flame, and also if there’s a history of incidents at
-						the local graveyard.
-						(GARRIE) KEEPER: Okay. Can you give me a Library Use
-						roll?
-						PAULA: Right. Paula rolls two ten-sided dice. I rolled 34,
-						under my Library Use skill of 40. What did I find?
-						(GARRIE) KEEPER: Cool. You search over the shelves and
-						come across a book called "Local Legends and Ghosts." It
-						looks like it has a whole chapter on Burke’s Cemetery. You’ll
-						need to check it out soon as your ten minutes are nearly up.
-						JOE: So have me and Arnold found anything? Shall we make
-						rolls?
-						(GARRIE) KEEPER: Well, just as you arrive at the
-						mysteries section you see a strange-looking man in a
-						trench coat. He appears to be examining an old
-						book. He suddenly notices you and quickly disappears down
-						the end of the stack.
-						ARNOLD: He’s up to something! Did I recognize him from
-						the bar we visited last night?
-						(GARRIE) KEEPER: It’s hard to say as you didn’t get a
-						good look at him. However you probably think there’s some
-						resemblance.
-						ARNOLD: Right, I’m sure it’s the guy that’s been following
-						us! I’m running after him!
-						JOE: Yes! Off we go!
-						(GARRIE) KEEPER: Okay. I’m going to cut to Paula and
-						then back to you guys. Paula, are you heading to the checkout desk?
-						PAULA: Yes I want the librarian to issue me the book.
-						(GARRIE) KEEPER: Fine. Arnold and Joe, you run round
-						the back of the shelves and the man is waiting for you. He’s
-						holding the old book and there’s a twinkle in his eye and a
-						sort of grin on his face.
-						ARNOLD: I didn’t expect that. I hold up and look at the
-						man. What’s he doing with the book?
-						JOE: Can I make a Psychology roll to see if I understand his intent?
-						(GARRIE) KEEPER: Yes, make the roll. Arnold, he’s
-						just holding the book firmly in both hands.
-						JOE: I made it; I rolled under half my Psychology skill.
-						(GARRIE) KEEPER: Well he looks like he wants to
-						say something to you. He gestures with the book for
-						you to come closer.
-						JOE: Okay, I move towards him, “How can I help you?”
-						ARNOLD: I’m waiting back to see what happens.
-						(GARRIE) KEEPER: Cut to Paula. The librarian
-						checks out your book and pointedly asks you and your
-						friends to leave as she’s locking up now.
-						PAULA: Fine. I go to look for Joe and Arnold.
-						CATHY: Is Jake aware of what’s going on with Arnold
-						and Joe?
-						(GARRIE) KEEPER: Not really. You do see Paula's investigator go off in the direction they went.
-						CATHY: I’m going to follow Paula.
-						(GARRIE) KEEPER: Right, Joe. As you edge closer to the
-						man you begin to notice a fishy smell. He looks at you
-						with his big watery eyes and says, (the Keeper drops his
-						voice here) “I saw you last night asking questions that don't
-						concern you. I advise you to stop poking your noses into
-						places they don’t belong.”
-						JOE: “Urgh! I’m not scared by you! What’s it to you who
-						we talk to anyway?”
-						What are you doing in the restricted section!?
-						15
-						chapter 1: introduction
-						ARNOLD: Careful!
-						(GARRIE) KEEPER: He smiles again and says, “Oh, I’m not
-						important, but there’s some who take a very dim view of
-						nosey people.”
-						JOE: I want to find out what he knows. I grab his coat lapels
-						and lean into his face saying, “Tell me what you know, old
-						man.”
-						(GARRIE) KEEPER: Sounds like you are trying to intimidate him. Make an Intimidate roll.
-						JOE: I failed it. Can I push the roll? I stare into his eyes and
-						go nose to nose with him, telling him that I’ll hurt him if he
-						doesn’t start talking.
-						(GARRIE) KEEPER: Sure you can. Of course, if you fail the
-						pushed roll something bad is going to happen…
-						JOE: Heck, I did fail the pushed roll! Oh no…
-						ARNOLD: I told you to be careful!
-						(GARRIE) KEEPER: You stare into his eyes and threaten
-						him, when suddenly he throws his head violently forward,
-						head-butting you. You reel back and blood begins to pour
-						from your nose. He throws the book up into air and runs.
-						Mark off two hit points damage.
-						Paula and Cathy, you arrive at this moment. Arnold
-						what are you doing?
-						ALL (in confusion): I’m running after him! I’m
-						trying to catch the book! What’s going on?! I’m
-						shouting for help!
-						Do they catch up to the strange, fishy smelling man?
-						What was in the book that he was holding? What’s
-						going on at Burke’s Cemetery? Who doesn’t want
-						more questions asked?"
+						"Right Joe, you look about at the signs and see that there is a section called \"Mysteries and the Supernatural\" down the aisle. You want to go look?",
+						"JOE: Sure I do!",
+						"CATHY: My private eye, Jake, is going to wait near the main entrance and keep an eye out.",
+						"ARNOLD: I’m going with Joe.",
+						"(GARRIE) KEEPER: Paula, you get to the local history section. What do you want to look for?",
+						"PAULA: I want to see if I can find anything on the Cult of the Green Flame, and also if there’s a history of incidents at the local graveyard.",
+						"(GARRIE) KEEPER: Okay. Can you give me a Library Use roll?",
+						"PAULA: Right. {@i Paula rolls two ten-sided dice.} I rolled 34, under my Library Use skill of 40. What did I find?",
+						"(GARRIE) KEEPER: Cool. You search over the shelves and come across a book called \"Local Legends and Ghosts.\" It looks like it has a whole chapter on Burke’s Cemetery. You’ll need to check it out soon as your ten minutes are nearly up.",
+						"JOE: So have me and Arnold found anything? Shall we make rolls?",
+						"(GARRIE) KEEPER: Well, just as you arrive at the mysteries section you see a strange-looking man in a trench coat. He appears to be examining an old book. He suddenly notices you and quickly disappears down the end of the stack.",
+						"ARNOLD: He’s up to something! Did I recognize him from the bar we visited last night?",
+						"(GARRIE) KEEPER: It’s hard to say as you didn’t get a good look at him. However you probably think there’s some resemblance.",
+						"ARNOLD: Right, I’m sure it’s the guy that’s been following us! I’m running after him!",
+						"JOE: Yes! Off we go!",
+						"(GARRIE) KEEPER: Okay. I’m going to cut to Paula and then back to you guys. Paula, are you heading to the checkout desk?",
+						"PAULA: Yes I want the librarian to issue me the book.",
+						"(GARRIE) KEEPER: Fine. Arnold and Joe, you run round the back of the shelves and the man is waiting for you. He’s holding the old book and there’s a twinkle in his eye and a sort of grin on his face.",
+						"ARNOLD: I didn’t expect that. I hold up and look at the man. What’s he doing with the book?",
+						"JOE: Can I make a Psychology roll to see if I understand his intent?",
+						"(GARRIE) KEEPER: Yes, make the roll. Arnold, he’s just holding the book firmly in both hands.",
+						"JOE: I made it; I rolled under half my Psychology skill.",
+						"(GARRIE) KEEPER: Well he looks like he wants to say something to you. He gestures with the book for you to come closer.",
+						"JOE: Okay, I move towards him, \"How can I help you?\"",
+						"ARNOLD: I’m waiting back to see what happens.",
+						"(GARRIE) KEEPER: Cut to Paula. The librarian checks out your book and pointedly asks you and your friends to leave as she’s locking up now.",
+						"PAULA: Fine. I go to look for Joe and Arnold.",
+						"CATHY: Is Jake aware of what’s going on with Arnold and Joe?",
+						"(GARRIE) KEEPER: Not really. You do see Paula's investigator go off in the direction they went.",
+						"CATHY: I’m going to follow Paula.",
+						"(GARRIE) KEEPER: Right, Joe. As you edge closer to the man you begin to notice a fishy smell. He looks at you with his big watery eyes and says, ({@i the Keeper drops his voice here}) \"I saw you last night asking questions that don't concern you. I advise you to stop poking your noses into places they don’t belong.\"",
+						"JOE: \"Urgh! I’m not scared by you! What’s it to you who we talk to anyway?\"",
+						"ARNOLD: Careful!",
+						"(GARRIE) KEEPER: He smiles again and says, \"Oh, I’m not important, but there’s some who take a very dim view of nosey people.\"",
+						"JOE: I want to find out what he knows. I grab his coat lapels and lean into his face saying, \"Tell me what you know, old man.\"",
+						"(GARRIE) KEEPER: Sounds like you are trying to intimidate him. Make an Intimidate roll.",
+						"JOE: I failed it. Can I push the roll? I stare into his eyes and go nose to nose with him, telling him that I’ll hurt him if he doesn’t start talking.",
+						"(GARRIE) KEEPER: Sure you can. Of course, if you fail the pushed roll something bad is going to happen…",
+						"JOE: Heck, I did fail the pushed roll! Oh no…",
+						"ARNOLD: I told you to be careful!",
+						"(GARRIE) KEEPER: You stare into his eyes and threaten him, when suddenly he throws his head violently forward, head-butting you. You reel back and blood begins to pour from your nose. He throws the book up into air and runs. Mark off two hit points damage.",
+						"Paula and Cathy, you arrive at this moment. Arnold what are you doing?",
+						"ALL (in confusion): I’m running after him! I’m trying to catch the book! What’s going on?! I’m shouting for help!",
+						"{@i Do they catch up to the strange, fishy smelling man? What was in the book that he was holding? What’s going on at Burke’s Cemetery? Who doesn’t want more questions asked?}"
 					],
-					"id": "007"
-						},
-						{
-							"type": "entries",
-							"name": "Advantage and Disadvantage",
-							"page": 7,
-							"entries": [
-								"Sometimes an ability check, attack roll, or saving throw is modified by special situations called advantage and disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while disadvantage reflects the opposite. When you have either advantage or disadvantage, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.",
-								"More detailed rules for advantage and disadvantage are presented in chapter 7."
-							],
-							"id": "008"
-						},
-						{
-							"type": "entries",
-							"name": "Specific Beats General",
-							"page": 7,
-							"entries": [
-								"This book contains rules, especially in parts 2 and 3, that govern how the game plays. That said, many racial traits, class features, spells, magic items, monster abilities, and other game elements break the general rules in some way, creating an exception to how the rest of the game works. Remember this: If a specific rule contradicts a general rule, the specific rule wins.",
-								"Exceptions to the rules are often minor. For instance, many adventurers don't have proficiency with longbows, but every wood elf does because of a racial trait. That trait creates a minor exception in the game. Other examples of rule-breaking are more conspicuous. For instance, an adventurer can't normally pass through walls, but some spells make that possible. Magic accounts for most of the major exceptions to the rules."
-							],
-							"id": "009"
-						},
-						{
-							"type": "entries",
-							"name": "Round Down",
-							"page": 7,
-							"entries": [
-								"There's one more general rule you need to know at the outset. Whenever you divide a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater."
-							],
-							"id": "00a"
-						}
-					],
-					"id": "005"
+					"id": "004"
 				},
 				{
 					"type": "section",

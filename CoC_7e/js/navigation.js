@@ -45,10 +45,8 @@ class NavBar {
 		const ulBooks = addDropdown(ulRules, "Books", true);
 		addLi(ulBooks, "books.html", "View All/Homebrew");
 		addDivider(ulBooks);
-		addLi(ulBooks, "book.html", "Investigator's Handbook", {aHash: "IHB", date: "2015"});
-		addLi(ulBooks, "book.html", "Monster Manual", {aHash: "MM", date: null});
-		addLi(ulBooks, "book.html", "Dungeon Master's Guide", {aHash: "DMG", date: null});
-		addLi(uLBooks, "book.html", "My dick", {aHash: "IHB", date: "2016"});
+		addLi(ulBooks, "book.html", "Investigator Handbook", {aHash: "IHB", date: "2016"});
+		addLi(ulBooks, "book.html", "Keeper Rulebook", {aHash: "KRB", date: null});
 		addDivider(ulBooks);
 		addLi(ulBooks, "book.html", "Sword Coast Adventurer's Guide", {aHash: "SCAG", date: "2015"});
 		addLi(ulBooks, "book.html", "Volo's Guide to Monsters", {aHash: "VGM", date: "2016"});
