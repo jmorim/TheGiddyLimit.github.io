@@ -79,6 +79,7 @@ class NavBar {
 		const ulAdventures = addDropdown(ulDms, "Adventures", true);
 		addLi(ulAdventures, "adventures.html", "View All/Homebrew");
 		addDivider(ulAdventures);
+		addLi(ulAdventures, "adventure.html", "Masks of Nyarlathotep", {isSide: true, aHash:"MoN", date: "2016"});
 		addLi(ulAdventures, "adventure.html", "Lost Mines of Phandelver", {isSide: true, aHash: "LMoP", date: "2014"});
 		addLi(ulAdventures, "adventure.html", "Hoard of the Dragon Queen", {isSide: true, aHash: "HotDQ", date: null});
 		addLi(ulAdventures, "adventure.html", "Rise of Tiamat", {isSide: true, aHash: "RoT", date: null});
