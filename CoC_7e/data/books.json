@@ -9,7 +9,140 @@
 			"author": "Chaosium",
 			"contents": [
 				{
-					"name": "Introduction"
+					"name": "Introduction",
+					"headers": [
+						"Introduction",
+						"Example of Play",
+						"What You Need to Play Call of Cthulhu"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "The Dunwich Horror",
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "Creating Investigators",
+					"headers": [
+						"The Steps",
+						"What the Numbers Mean",
+						"Example of Investigator Creation",
+						"Period Names",
+						"Other Ways of Creating Investigators (Optional Rules)",
+						"Quick Reference Chart for Half and Fifth Values",
+						"Quick Reference: Investigator Generation"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Occupations",
+					"headers": [
+						"List of Occupations"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "Skills",
+					"headers": [
+						"Skill List",
+						"Living Standards",
+						"Becoming a Believer",
+						"Optional Rules"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Investigator Organizations",
+					"headers": [
+						"Sample Investigators",
+						"Members of The Society for the Exploration of the Unexplained"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 6
+					}
+				},
+				{
+					"name": "Life as an Investigator",
+					"headers": [
+						"Monster Size Comparison Charts"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 7
+					}
+				},
+				{
+					"name": "The Roaring Twenties",
+					"headers": [
+						"Chronology of the Roaring Twenties",
+						"Useful Information for 1920s Investigators 1920s Biographies",
+						"Notable Libraries and Museums"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 8
+					}
+				},
+				{
+					"name": "Advice for Players",
+					"headers": [
+						"Setting the Scene",
+						"Rules Advice"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 9
+					}
+				},
+				{
+					"name": "Reference",
+					"headers": [
+						"A Hundred Years and More",
+						"Speeds and Distances",
+						"Equipment, Travel and Weapons: 1920s",
+						"Equipment, Travel and Weapons: Modern Day",
+						"Weapons Table",
+						"Converting from Previous Editions",
+						"Map of Arkham",
+						"Map of Lovecraft Country"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 10
+					}
+				},
+				{
+					"name": "Index"
+				},
+				{
+					"name": "Investigator Sheet",
+					"headers": [
+						"1920s",
+						"Modern-Day"
+					]
+				},
+				{
+					"name": "Acknowledgements",
+					"headers": [
+						"Playtesters",
+						"Kickstarter Backers"
+					]
 				}
 			]
 		},
@@ -22,7 +155,215 @@
 			"author": "Chaosium",
 			"contents": [
 				{
-					"name": "Introduction"
+					"name": "Introduction",
+					"headers": [
+						"An Overview of the Game",
+						"Example of Play",
+						"What You Need to Play"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "Lovecraft and the Cthulhu Mythos",
+					"headers": [
+						"Howard Philips Lovecraft",
+						"The Cthulhu Mythos"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "Creating Investigators",
+					"headers": [
+						"Quick Reference: Investigator Generation",
+						"What the Numbers Mean",
+						"Creating Harvey Walters",
+						"Sample Occupations",
+						"Quick Reference Chart for Half and Fifth Values"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Skills",
+					"headers": [
+						"Skill List"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "Game System",
+					"headers": [
+						"Skill Rolls",
+						"Bonus and Penalty Dice",
+						"Investigator Development Phase"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Combat",
+					"headers": [
+						"The Combat Round",
+						"Using Weapons in a Fight",
+						"Striking the First Blow (Surprise)",
+						"Outnumbered",
+						"Ranged and Thrown Weapons",
+						"Escaping Close Combat",
+						"Fighting Maneuvers",
+						"Armor",
+						"Firearms",
+						"Wounds and Healing",
+						"Sample Poisons"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 6
+					}
+				},
+				{
+					"name": "Chases",
+					"headers": [
+						"Establishing the Chase",
+						"The Chase Round"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 7
+					}
+				},
+				{
+					"name": "Sanity",
+					"headers": [
+						"Sanity Points and SAN Rolls",
+						"Instanity",
+						"Sample Phobias",
+						"Sample Manias",
+						"Treatment and Recovery from Insanity",
+						"Getting Used to the Awfulness"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 8
+					}
+				},
+				{
+					"name": "Magic",
+					"headers": [
+						"Mythos Tomes",
+						"Using Magic",
+						"Learning a Spell",
+						"Becoming a Believer"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 9
+					}
+				},
+				{
+					"name": "Playing the Game",
+					"headers": [
+						"New Keepers",
+						"Non-Player Characters",
+						"Rolling Dice",
+						"The Idea Roll",
+						"Perception Rolls",
+						"Using the Rules",
+						"Presenting the Terrors of the Mythos",
+						"Creating Scenarios"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 10
+					}
+				},
+				{
+					"name": "Tomes of Eldritch Lore",
+					"headers": [
+						"Using Mythos Tomes",
+						"The Necronomicon",
+						"Mythos Tomes"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 11
+					}
+				},
+				{
+					"name": "Grimoire",
+					"headers": [
+						"Spells",
+						"Deeper Magic",
+						"The Grimoire"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 12
+					}
+				},
+				{
+					"name": "Artifacts and Alien Devices",
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 13
+					}
+				},
+				{
+					"name": "Monsters, Beasts, and Alien Gods",
+					"headers": [
+						"Chaosim Pronunciation of Mythos Names",
+						"Mythos Monsters",
+						"Deities of the Mythos",
+						"Traditional Horrors",
+						"Beasts"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 14
+					}
+				},
+				{
+					"name": "Scenarios",
+					"headers": [
+						"Amidst the Ancient Trees",
+						"Crimson Letters"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 15
+					}
+				},
+				{
+					"name": "Appendices",
+					"headers": [
+						"Glossary",
+						"Converting to 7th Edition Rules",
+						"Equipment - 1920s",
+						"Equipment - Modern Era",
+						"Weapons Table",
+						"Rules Summaries",
+						"Investigator Sheet - 1920s",
+						"Investigator Sheet - Modern Era"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 16
+					}
+				},
+				{
+					"name": "Index"
 				}
 			]
 		}
