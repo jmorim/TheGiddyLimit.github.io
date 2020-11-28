@@ -1,0 +1,141 @@
+{
+    "spell": [
+        {
+            "name": "Apportion Ka",
+            "source": "KRB",
+            "page": 246,
+            "srd": false,
+            "cost": [
+                {
+                    "amount": 10,
+                    "type": "points"
+                },
+                {
+                    "amount": 5,
+                    "type": "pow"
+                },
+                {
+                    "amount": {
+                        "type": "dice",
+                        "number": 2,
+                        "faces": 10
+                    },
+                    "type": "sanity"
+                }
+            ],
+            "time": "1 day per organ",
+            "entries": [
+                "A portion of the caster’s life essence, or \"ka\", is transferred into one of his or her vital organs. The enchanted organ is then removed from the caster’s body, to be hidden away for safekeeping and providing the wizard with a form of invulnerability—as long as the enchanted organ remains safely hidden the wizard will not suffer particular attacks and may even be invulnerable to death.",
+                "This spell was first used by followers of the Dark Pharaoh, Nephren-Ka, who would remove a vital organ, such as the heart or liver, and lock them away in safe places. This would make the caster virtually impossible to kill, if not for the spell’s one weakness. The brain is the seat of the spell’s power and, as such, could not be removed. If the brain was destroyed, the other organs would lose their magical properties and the caster would die.",
+                "Having one’s own insides removed costs {@dice 2D10} Sanity points and the permanent loss of 5 POW per organ removed. Attacks that impale cause only normal damage (unless the head is specifically targeted). Invulnerability stems from which organ is removed; for example if the lungs are removed then the caster is unaffected by lack of oxygen (thus drowning and suffocation are no longer threats). Removal of vital organs may also render the caster immune to poison and so forth.",
+                "If the caster is harmed, hit points should be reduced as usual, leading to unconsciousness but not death. Death will only occur if the brain is specifically targeted and destroyed."
+            ],
+            "altNames": [
+                "Imbue Essence",
+                "Extraction of the Will",
+                "Deathless Breath"
+            ]
+        },
+        {
+            "name": "Banishment of Yde Etad",
+            "source": "KRB",
+            "page": 246,
+            "srd": false,
+            "cost": [
+                {
+                    "amount": {
+                        "type": "dice",
+                        "number": 1,
+                        "faces": 4,
+                        "modifier": "3"
+                    },
+                    "type": "points"
+                },
+                {
+                    "amount": {
+                        "type": "dice",
+                        "number": 1,
+                        "faces": 4
+                    },
+                    "type": "sanity"
+                }
+            ],
+            "time": "variable (minimum 1 hour)",
+            "entries": [
+                "This spell sends home most trans-dimensional human or human-like intelligences that are under their own volition. It is not effective against any creature commanded by another intelligence. Correctly performed, the banishment is permanent and irrevocable. Each banishment is of an individual target, not of a type of monsters.",
+                "At least three people must participate in the spell. All participants must know the spell. More participants add to the effectiveness; however, the total number of participants must be divisible by three.",
+                "This banishment works by destroying with ritual flames a sigil representing the target. The target’s personal sigil is best, but a substitute can be prepared according to a formula described within the spell. For the spell to take effect an opposed POW roll must be made between the caster with the highest POW and target. One bonus die is granted for each additional set of three casters.",
+                "The spell must be performed in the open air in the middle of the night, ideally in a place of power associated with the target. This could be known haunts, its last known location or its point of entry into this dimension. The spell casters must divide their numbers: one-third remain outside a protective circle and the rest stand within."
+            ],
+            "altNames": [
+                "Banish Spawn of the Seven Hells",
+                "Cast Out Demon",
+                "Curse of Awful Fire"
+            ]
+        },
+        {
+            "name": "Body Warping of Gorgoroth",
+            "source": "KRB",
+            "page": 246,
+            "srd": false,
+            "cost": [
+                {
+                    "amount": 6,
+                    "type": "points"
+                },
+                {
+                    "amount": 5,
+                    "type": "pow"
+                },
+                {
+                    "amount": {
+                        "type": "dice",
+                        "number": 2,
+                        "faces": 6
+                    },
+                    "type": "sanity"
+                }
+            ],
+            "time": "1d6 + 4 minutes",
+            "entries": [
+                "Allows the caster to change his or her physical form. The sorcerer can change to any shape and appearance, though retaining personal abilities. The form is fleshly but it can appear to be made of stone, wood, a rug, etc. Once changed into a new shape, the caster has the mobility of that shape. The caster’s STR, CON, INT, POW and DEX do not change. If emulating a person, the sorcerer’s Appearance becomes that of the individual emulated. The caster can take on only a known form.",
+                "The caster invokes Nyarlathotep and repeats the phrases of the spell while expending 6 magic points and an additional magic point for each 5 points of SIZ to be gained or lost in the body warping. Only one alteration per casting is possible and the effect is permanent until the spell is recast to change back again. This spell cannot be cast on another being."
+            ],
+            "altNames": [
+                "Mastery of the Flesh",
+                "Skin Walking",
+                "The Black Pharao's Touch"
+            ]
+        },
+        {
+            "name": "Breath of the Deep",
+            "source": "KRB",
+            "page": 247,
+            "srd": false,
+            "cost": [
+                {
+                    "amount": 8,
+                    "type": "points"
+                },
+                {
+                    "amount": {
+                        "type": "dice",
+                        "number": 1,
+                        "faces": 6
+                    },
+                    "type": "sanity"
+                }
+            ],
+            "time": "1 round",
+            "entries": [
+                "The target’s lungs fill with seawater, potentially causing an unpleasant death by drowning.",
+                "The caster must be able to see the target. After mentally intoning the spell for a round, for the spell to take effect the caster must win an opposed POW roll with the target. If the caster wins the target begins to drown—the target falls to the floor, choking on seawater and taking {@dice 1D8} damage each round. The target should make an Extreme CON roll (equal to or below one-fifth CON) after taking damage each round; if the roll is successful the water has been expelled and the effects of the spell cease."
+            ],
+            "altNames": [
+                "Currency of the Blue Sea",
+                "The Sailor's Curse",
+                "Kiss of Brine"
+            ]
+        }
+    ]
+}
