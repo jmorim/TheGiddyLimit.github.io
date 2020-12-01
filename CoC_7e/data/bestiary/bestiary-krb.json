@@ -1,0 +1,403 @@
+{
+    "monster": [
+        {
+            "name": "Byakhee",
+            "source": "KRB",
+            "page": 282,
+            "type": "monster",
+            "specialPowers": [
+                {
+                    "name": "Fly",
+                    "entries": [
+                        "Byakhee can fly through space and carry a rider; though such riders need protection from the vacuum and cold by suitable spells or potions (e.g. Space-Mead). "
+                    ]
+                },
+                {
+                    "name": "Spells",
+                    "entries": [
+                        "Byakhee have a 40% chance of knowing {@dice 1D4} spells. Such spells may relate to Hastur and associated beings."
+                    ]
+                }
+            ],
+            "str": {
+                "average": 90,
+                "formula": "5d6 * 5"
+            },
+            "con": {
+                "average": 50,
+                "formula": "3d6 * 5"
+            },
+            "siz": {
+                "average": 90,
+                "formula": "5d6 * 5"
+            },
+            "dex": {
+                "average": 70,
+                "formula": "(3d6 + 3) * 5"
+            },
+            "int": {
+                "average": 50,
+                "formula": "3d6 * 5"
+            },
+            "pow": {
+                "average": 50,
+                "formula": "3d6 * 5"
+            },
+            "hp": 14,
+            "damageBonus": "1d6",
+            "build": 2,
+            "points": 10,
+            "move": "5/16 flying",
+            "attacksPerRound": 2,
+            "actions": [
+                {
+                    "name": "Fighting attacks",
+                    "entries": "{@hit 55} The byakhee may strike with claws or crash into its victim, delivering grievous wounds.",
+                    "damage": [
+                        {
+                            "type": "hp",
+                            "formula": "1d6",
+                            "withBonus": true
+                        }
+                    ]
+                },
+                {
+                    "name": "Bite and hold (mnvr)",
+                    "entries": [
+                        "If the bite strikes home the byakhee remains attached to the victim and begins to drain his or her blood. Each round the byakhee remains attached, including the first, the blood drain subtracts {@dice 3D10} points of STR from the victim, until death occurs (at STR 0). The byakhee characteristically remains attached with this attack until the victim is drained of blood, unless the victim can make a successful opposed STR roll. Escaping death, let the victim rest and regain blood (by transfusion as well), at up to {@dice 1d10 + 5} STR per day. A Byakhee may hold only one victim at a time."
+                    ],
+                    "damage": [
+                        {
+                            "type": "hp",
+                            "formula": "1d6"
+                        },
+                        {
+                            "type": "str",
+                            "formula": "3d10"
+                        }
+                    ]
+                }
+            ],
+            "dodge": 35,
+            "armor": {
+                "number": 2,
+                "entries": [
+                    "fur and tough hide"
+                ]
+            },
+            "skills": [
+                {
+                    "name": "Listen",
+                    "amount": 50
+                },
+                {
+                    "name": "Spot Hidden",
+                    "amount": 50
+                }
+            ],
+            "sanity": {
+                "success": "1",
+                "failure": "1d6"
+            }
+        },
+        {
+            "name": "Chthonians",
+            "source": "KRB",
+            "page": 283,
+            "type": "monster",
+            "specialPowers": [
+                {
+                    "name": "Chthonian telepathic control",
+                    "entries": [
+                        "Chthonians can use telepathy to control humans, though they do not often do so unless the target has something they want, such as odd spherical mineral formations.",
+                        "The target may attempt to resist a single chthonian with an opposed POW roll. Overcome, the victim is bound to the area where psychically attacked. At first the target has mobility of a mile or so, but this progressively lessens as the chthonian draws nearer, until the victim may not be able to leave a particular room, or even a particular chair. The target immobilized, the chthonian erupts through the floor and collects its due. If the victim becomes aware of the mental influence of a chthonian, the hold may be broken by successfully making a POW roll versus the chthonian. Once a victim has experience of chthonians, a successful INT roll constitutes awareness.",
+                        "A chthonian can telepathically contact a known human anywhere on the Earth, but it may take time before it can locate its victim’s mind.",
+                        "It costs a chthonian one magic point to communicate with a human or to bind a human to a site for a day. Each ten miles of distance from a binding also costs another magic point. Several chthonians may contribute magic points to compensate for distance, but the POW rolls are made individually",
+                        "It costs no magic points to contact another chthonian, no matter at what distance.",
+                        "Anecdotal evidence suggests that adults may be able to drain a human’s magic points, but nothing definite is truly known."
+                    ]
+                },
+                {
+                    "name": "Earthquake attacks",
+                    "entries": [
+                        "All adult chthonians can create earthquakes. Figure an earthquake’s force by totaling the POW of participating chthonians and dividing by 100. The result is the earthquake’s magnitude on the Richter Scale, but only in the first diameter of 100 yards. In the next 100 yards, the Richter force is lessened by one, and so on for each additional 100 yards until the strength of the quake can be ignored. Alternatively, the chthonians might limit the force in the center diameter and instead extend the quake’s diameter-of-effect or maximum effect by multiples of 100 yards.",
+                        "At least half of the participants must be directly under the center of the earthquake. Each chthonian must spend magic points equal to the highest Richter Scale number generated for the quake. Historically, the highest Richter numbers have been approximately nines, but geological evidence exists of quakes that have been much stronger."
+                    ]
+                },
+                {
+                    "name": "Spells",
+                    "entries": [
+                        "A full adult has a 50% chance of knowing 1D6 spells, most of which should be connected with Shudde M’ell and Great Old Ones tied to this earth, such as Cthulhu, Y’golonac, Yig, etc."
+                    ]
+                }
+            ],
+            "str": {
+                "average": 260,
+                "formula": "3d6 * 25"
+            },
+            "con": {
+                "average": 200,
+                "formula": "(3d6 + 30)* 25"
+            },
+            "siz": {
+                "average": 260,
+                "formula": "3d6 * 25"
+            },
+            "dex": {
+                "average": 35,
+                "formula": "2d6 * 5"
+            },
+            "int": {
+                "average": 90,
+                "formula": "5d6 * 5"
+            },
+            "pow": {
+                "average": 90,
+                "formula": "5d6 * 5"
+            },
+            "hp": 46,
+            "damageBonus": "5d6",
+            "build": 6,
+            "points": 18,
+            "move": "6/1 burrowing",
+            "attacksPerRound": "1d8",
+            "actions": [
+                {
+                    "name": "Fighting attacks",
+                    "entries": "{@hit 75} It’s dangerous to get near to these things. Their crushing bulk and flailing tentacles may strike at any moment.",
+                    "damage": [
+                        {
+                            "type": "hp",
+                            "formula": "2d6"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hold and Drain (mnvr)",
+                    "entries": [
+                        "Each round, a chthonian can attack with {@dice 1d8} tentacles, each of which cause damage equal to half the creature’s damage bonus (round down). If a tentacle strikes home, it clings and worms its way into the victim’s vitals, and begins to drain off blood and fluids, costing {@dice 3d10} CON each round. Reaching 0 CON, the victim dies. CON lost to a chthonian is gone for good. While a tentacle is draining a victim, it cannot be used to drain other targets, but it could still be used to fight-back, swinging the poor held victim like a ball on a chain at its attacker.",
+                        "Tentacles draining their targets will continue to sap CON each round. Each tentacle could attack a different target or they could all attack the same one."
+                    ],
+                    "damage": [
+                        {
+                            "type": "hp",
+                            "formula": "2d6"
+                        },
+                        {
+                            "type": "con",
+                            "formula": "3d10"
+                        }
+                    ]
+                },
+                {
+                    "name": "Crush",
+                    "entries": [
+                        "{@hit 80} A chthonian may use its immense bulk to crush a foe. If crushing, it can continue to hold and drain victims that are already caught. The chthonian rears up and crashes down on a group: the crush area is circular, striking equally all within. The crush area equals a diameter in yards of the chthonian’s SIZ divided by fifty. Within the crush area, an investigator must succeed with DEX, Dodge, or Jump, or lose hit points equal to the creature’s full damage bonus."
+                    ],
+                    "damage": [
+                        {
+                            "type": "hp",
+                            "withBonus": true
+                        }
+                    ]
+                }
+            ],
+            "dodge": 17,
+            "armor": {
+                "number": 5,
+                "entries": [
+                    "hide and muscle",
+                    "regenerates 5 hit points per round after wounded, but ceases to work when below 1 hit point"
+                ]
+            },
+            "sanity": {
+                "success": "1d3",
+                "failure": "1d20"
+            }
+        },
+        {
+            "name": "Abhoth",
+            "title": "Source of Uncleanness",
+            "source": "KRB",
+            "page": 310,
+            "type": "deity",
+            "str": {
+                "average": 200
+            },
+            "con": {
+                "average": 500
+            },
+            "siz": {
+                "average": 400
+            },
+            "dex": {
+                "average": 5
+            },
+            "int": {
+                "average": 65
+            },
+            "pow": {
+                "average": 250
+            },
+            "hp": 90,
+            "damageBonus": "6d6, but only 1d6 per pseudopod",
+            "build": 7,
+            "points": 50,
+            "move": "0",
+            "attacksPerRound": "1",
+            "actions": [
+                {
+                    "name": "Fighting attacks",
+                    "entries": "{@hit 60} Abhoth will wrestle and seize using his appendages. If successful, he seizes and absorbs his victim—whether the victim is digested slowly or assimilated telepathically is not known.",
+                    "damage": [
+                        {
+                            "type": "hp",
+                            "formula": "1d6"
+                        }
+                    ]
+                }
+            ],
+            "armor": {
+                "number": 0,
+                "entries": [
+                    "Abhoth regenerates from all kinetic damage at the rate of 20 points per combat round. Fire or magic will cause normal damage. If Abhoth is reduced to 0 hit points, it withdraws and sinks far away down into the earth where it is inaccessible to further damage. It oozes toward the surface after healing from its injuries."
+                ]
+            },
+            "spells": {
+                "entries": [
+                    "None, but it may give someone that it takes a fancy-to a portion of its own body, which could be used to create a creature identical to the spawn of Abhoth."
+                ]
+            },
+            "sanity": {
+                "success": "1d3",
+                "failure": "1d20"
+            }
+        },
+        {
+            "name": "Mummy",
+            "source": "KRB",
+            "page": 333,
+            "type": "horror",
+            "str": {
+                "average": 105,
+                "formula": "3d6 * 10"
+            },
+            "con": {
+                "average": 80,
+                "formula": "(3d6 + 2) * 7.5"
+            },
+            "siz": {
+                "average": 65,
+                "formula": "(2d6 + 6) * 5"
+            },
+            "dex": {
+                "average": 35,
+                "formula": "2d6 * 5"
+            },
+            "int": {
+                "average": 55,
+                "formula": "3d6 * 5"
+            },
+            "pow": {
+                "average": 75,
+                "formula": "(1d6 + 12) * 5"
+            },
+            "hp": 14,
+            "damageBonus": "1d6",
+            "build": 2,
+            "points": 15,
+            "move": "6",
+            "attacksPerRound": "2",
+            "actions": [
+                {
+                    "name": "Fighting attacks",
+                    "entries": "{@hit 70} Mummies have the usual range of unarmed attacks open to humanoids.",
+                    "damage": [
+                        {
+                            "type": "hp",
+                            "formula": "1d6",
+                            "withBonus": true
+                        }
+                    ]
+                }
+            ],
+            "dodge": 17,
+            "armor": {
+                "number": 2,
+                "entries": [
+                    "skin",
+                    "Impaling weapons have little effect (half damage)"
+                ]
+            },
+            "skills": {
+                "name": "Stealth",
+                "amount": 50
+            },
+            "sanity": {
+                "success": "1",
+                "failure": "1d8"
+            }
+        },
+        {
+            "name": "Bat, Large",
+            "source": "KRB",
+            "page": 336,
+            "type": "beast",
+            "str": {
+                "average": 25,
+                "formula": "2d4 * 5"
+            },
+            "con": {
+                "average": 35,
+                "formula": "2d6 * 5"
+            },
+            "siz": {
+                "average": 15,
+                "formula": "2d4 * 5"
+            },
+            "dex": {
+                "average": 105,
+                "formula": "(1d6 + 18) * 5"
+            },
+            "pow": {
+                "average": 35,
+                "formula": "2d6 * 5"
+            },
+            "hp": 5,
+            "damageBonus": "-2",
+            "build": -2,
+            "move": "1/12 flying",
+            "attacksPerRound": "1",
+            "actions": [
+                {
+                    "name": "Fighting attacks",
+                    "entries": "{@hit 40} Attacks with teeth and claws.",
+                    "damage": [
+                        {
+                            "type": "hp",
+                            "formula": "1d2",
+                            "withBonus": true
+                        }
+                    ]
+                }
+            ],
+            "dodge": 52,
+            "armor": {
+                "number": 0,
+                "entries": [
+                    "None"
+                ]
+            },
+            "skills": {
+                "name": "Spot Hidden",
+                "amount": 72
+            },
+            "habitat": {
+                "type": "entries",
+                "entries": [
+                    "Warm and temperate climates worldwide."
+                ]
+            }
+        }
+    ]
+}

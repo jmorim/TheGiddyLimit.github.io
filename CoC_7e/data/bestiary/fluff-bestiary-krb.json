@@ -1,0 +1,110 @@
+{
+    "monsterFluff": [
+        {
+            "name": "Byakhee",
+            "source": "KRB",
+            "entries": [
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "quote",
+                            "entries": [
+                                "There flapped rhythmically a horde of tame, trained, hybrid winged things…not altogether crows, nor moles, nor buzzards, nor ants, nor decomposed human beings, but something I cannot and must not recall."
+                            ],
+                            "by": "H.P. Lovecraft, The Festival"
+                        },
+                        "This interstellar race often serves Hastur the Unnamable, and may be summoned to partake in rituals. Composed of conventional matter, they are vulnerable to ordinary weapons, such as pistols.",
+                        "Dwelling in interstellar space, byakhee do not have bases on Earth, but may be summoned to perform deeds or to serve as steeds, carrying riders through interstellar space."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chthonians",
+            "source": "KRB",
+            "entries": [
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "quote",
+                            "entries": [
+                                "Flowing tentacles and pulpy gray-black, elongated sack of a body… no distinguishing features at all other than the reaching, groping tentacles. Or was there—yes—a lump in the upper body of the thing… a container of sorts for the brain, ganglia, or whichever diseased organ governed this horror’s loathsome life!"
+                            ],
+                            "by": "Brian Lumley, The Burrowers Beneath"
+                        },
+                        "These creatures are like immense earth-bound squids, and their elongated wormlike bodies are coated with slime. A chanting sound accompanies them. These powerful burrowers live more than a thousand years, and are protective of their young. A jumble of remarkable properties, chthonians bear little resemblance to anything else on this planet. The most important individual chthonian is the gigantic Shudde M’ell.",
+                        "All stages of chthonians communicate by telepathy and can thus reach another of their race anywhere in the world, and can sense other minds. Only adults can telepathically control members of other species with this power.",
+                        "They can tunnel through rock as though it were butter and have no need to breathe. Adult chthonians can withstand enormous temperatures, up to 4000°C (7200°F). It may be that the majority of chthonians live toward the core of this planet, and that only outcasts, wanderers, and those accidentally caught up in pluming magma explore the cold outer crust where man thrives. Perhaps they migrate here to give birth, since the younger stages cannot withstand extreme heat. We do not know their motives.",
+                        "Full adults can cause powerful earthquakes.",
+                        "Chthonians are extremely susceptible to water. While their slime coating protects them from small amounts of water, general immersion destroys a chthonian. Burrowing, these monsters detect significant water by distinguishing the relatively low echo profiles of water and watery sediment, avoiding such areas.",
+                        "Chthonians are worldwide, even found in basalt under the oceans. In western Africa is a mystery city called G’harne, which they frequent. They may have been imprisoned there once, aeons ago.",
+                        "The general discussion and statistics concern a full adult chthonian, the last and largest stage (instar) between molts. This is the sort which investigators are most likely to meet. A chthonian matures through different life stages, ranging from hatchlings and nests of younger chthonians to immature and fully mature. In theory, chthonians of varying ages could be encountered."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Abhoth",
+            "source": "KRB",
+            "entries": [
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "quote",
+                            "entries": [
+                                "He descried…in the pool a grayish, horrid mass that nearly choked it from rim to rim. Here, it seemed, was the ultimate source of all miscreation and abomination. For the gray mass quobbed and quivered, and swelled perpetually; and from it, in manifold fission, were spawned the anatomies that crept away on every side through the grotto."
+                            ],
+                            "by": "Clark Ashton Smith, The Seven Geases"
+                        },
+                        "Manifestly not native to this planet, Abhoth’s protean form and cynical mind imply relation to Tsathoggua. The black caverns wherein it dwells and which it never leaves may well be part of N’Kai, an underground world beneath North America. Some reports place these caverns directly beneath the New England village of Dunwich.",
+                        {
+                            "type": "entries",
+                            "name": "Cult",
+                            "entries": [
+                                "Abhoth has no known human worshipers. Underground horrors or Abhoth’s own spawn may worship it."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Other Characteristics",
+                            "entries": [
+                                "Obscene monsters constantly form in the grey mass and crawl away from their parent. Abhoth’s tentacles and limbs grasp many offspring and devour them again, returning them to the primal mass, but more manage to escape. If someone nears Abhoth, the various monstrous spawn, which continually detach from its body, become more numerous, and these may harry or attack investigators.",
+                                "Spawn of Abhoth are manifold and varied in appearance; particulars are best left to the Keeper. Its spawn are no larger than SIZ 5 to 90 (3D6 x 5), at least at first—after a year or so of feeding and growing, a spawn may be of any size.",
+                                "If a party is unfortunate enough to come upon Abhoth itself, bubbling uncleanly in its pool of filth, Abhoth will put forth a probing hand or member, which will feel over the intruders and then drop off and crawl away. The visitor will then either be seized and devoured by other appendages of Abhoth’s or ignored, at the Keeper’s option. Abhoth is known to speak telepathically with intruders, but few have returned from the meeting."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mummy",
+            "source": "KRB",
+            "entries": [
+                {
+                    "type": "entries",
+                    "entries": [
+                        "These undead beings are similar to intelligent zombies. Some cults keep mummies in their temples as guardians. Like zombies, mummies must be hacked apart to make them cease action. Contrary to popular belief, many mummies lack bandage wrappings and can move relatively swiftly. Some mummies cannot naturally regenerate magic points.",
+                        "A mummy has double its human STR, 1.5 times its original CON and two-thirds of original DEX.",
+                        "Because of the bitumen and bandages frequently used to preserve them, fire is particularly effective against Egyptian mummies: damage is normal, however the flames are more difficult to extinguish because of the bitumen in the wrappings." 
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bat, Large",
+            "source": "KRB",
+            "entries": [
+                {
+                    "type": "entries",
+                    "entries": [
+                        "The giant fruit bat of Central America congregates in dozen or hundreds. The smaller bats common to the United State gather in enormous cavern-based flocks of up to 50,00 individuals. Bats worldwide are under severe environmenta attack from humans."
+                    ]
+                }
+            ]
+        }
+    ]
+}

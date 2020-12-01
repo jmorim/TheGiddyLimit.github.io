@@ -15,11 +15,7 @@
                     "type": "pow"
                 },
                 {
-                    "amount": {
-                        "type": "dice",
-                        "number": 2,
-                        "faces": 10
-                    },
+                    "formula": "2d10",
                     "type": "sanity"
                 }
             ],
@@ -43,20 +39,11 @@
             "srd": false,
             "cost": [
                 {
-                    "amount": {
-                        "type": "dice",
-                        "number": 1,
-                        "faces": 4,
-                        "modifier": "3"
-                    },
+                    "formula": "1d4 + 3",
                     "type": "points"
                 },
                 {
-                    "amount": {
-                        "type": "dice",
-                        "number": 1,
-                        "faces": 4
-                    },
+                    "formula": "1d4",
                     "type": "sanity"
                 }
             ],
@@ -88,11 +75,7 @@
                     "type": "pow"
                 },
                 {
-                    "amount": {
-                        "type": "dice",
-                        "number": 2,
-                        "faces": 6
-                    },
+                    "formula": "2d6",
                     "type": "sanity"
                 }
             ],
@@ -118,11 +101,7 @@
                     "type": "points"
                 },
                 {
-                    "amount": {
-                        "type": "dice",
-                        "number": 1,
-                        "faces": 6
-                    },
+                    "formula": "1d6",
                     "type": "sanity"
                 }
             ],

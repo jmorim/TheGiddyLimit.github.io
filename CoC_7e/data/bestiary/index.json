@@ -1,4 +1,5 @@
 {
+	"KRB": "bestiary-krb.json",
 	"AI": "bestiary-ai.json",
 	"BGDIA": "bestiary-bgdia.json",
 	"CoS": "bestiary-cos.json",
