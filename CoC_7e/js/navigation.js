@@ -36,7 +36,7 @@ class NavBar {
 
 		const ulSystem = addDropdown(navBar, "System");
 		addLi(ulSystem, "../DnD_5e/5etools.html", "Dungeons and Dragons 5e");
-		addLi(ulSystem, "../CoC_7e/5etools.html", "Call of Cthulhu 7e");
+		addLi(ulSystem, "../CoC_7e/CoCtools.html", "Call of Cthulhu 7e");
 		const ulRules = addDropdown(navBar, "Rules");
 		addLi(ulRules, "quickreference.html", "Quick Reference");
 		addLi(ulRules, "variantrules.html", "Variant & Optional Rules/Misc");
